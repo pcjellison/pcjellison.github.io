@@ -8,8 +8,35 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.navBar {
+	overflow: hidden;
+	background-color: #512888;
+}
+.navBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navBar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 </style>
 <body class="w3-light-grey">
+<div class="navBar">
+	<a class="active" href="#index">Home</a>
+	<a href="#experience"> Experience</a>
+	<a href="#volunteer"> Volunteering</a>
+</div>
 
 <!--PAGE CONTAINER-->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -32,29 +59,41 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<p><i class="material-icons" style="color:#512888">phone</i> (785)370-5586</p>
 			<hr>
 		  
-			<p class="w3-large" style="color:#512888"><b>Technical Skills</b></p>
-			<p class="w3-medium" style="color:#512888"><b>Languages</b></p>
-			<p>C/C++</p>
-			<p>C#</p>
-			<p>Java</p>
-			<p>HTML</p>
-			<p class="w3-medium" style="color:#512888"><b>Software</b></p>
-			<p>Visual Studio</p>
-			<p>Eclipse</p>
-			<p>WhiteStarUML</p>
-			<p>Microsoft Office Suite</p>
-			<br>
-
-			<p class="w3-large" style="color:#512888"><b>Soft Skills</b></p>
-			<p>Time management</p>
-			<p>Communication</p>
-			<p>Customer Service</p>
+			<h5 class="skills" style="color:#512888"><b>Technical Skills</b></h5>
+			<h6 style="color:#512888"><b>Languages</b></h6>
+			<div>
+				<ul>
+					<li>C#</li>
+					<li>Javascript</li>
+					<li>C/C++</li>
+					<li>Java</li>
+					
+				</ul>
+			</div>
+			<h6 class="w3-medium" style="color:#512888"><b>Software</b></h6>
+			<div>
+				<ul>
+					<li>Visual Studio</li>
+					<li>Eclipse</li>
+					<li>WhiteStarUML</li>
+					<li>Microsoft Office Suite</li>
+				</ul>
+			<h5 class="w3-large" style="color:#512888"><b>Soft Skills</b></h5>
+			<div>
+				<ul>
+					<li>Problem Solving</li>
+					<li>Time Management</li>
+					<li>Communication</li>
+					<li>Costumer Service</li>
+				</ul>
+			</div>
 			<br>
 			</div>
 			</div><br>
 		</div>
 
     <!-- End Left Column -->
+	</div>
 	
 	    <!-- Right Column -->
     <div class="w3-twothird">
