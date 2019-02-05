@@ -1,0 +1,181 @@
+
+
+html { 
+  background: url(teal-flower.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.right_align {
+	float: right;
+}
+
+.circle {
+	height: 400px;
+	width: 400px;
+	background: white;
+	border: 5px black solid;
+	border-radius: 50%;
+	margin-top: 15%;
+	margin-left: 35%;
+}
+
+.name {
+	font-size: 32px;
+	margin-top: 35%;
+	margin-left: 35%;
+}
+
+.nav-bar {
+	display:block;
+	position: fixed;
+	top: 0;
+	left: 0px;
+	height: 100%;
+	width: 200px;
+	background-color: #fff;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.nav-link {
+	display: flex;
+	justify-content: center;
+	margin-top: 40%;
+	text-transform: uppercase;
+	color: black;
+	font-size: 24px;
+}
+
+.resume {
+	position: absolute;
+	text-align: center;
+	padding-top: -30%;
+	font-size: 24px;
+}
+
+.education {
+	height: 350px;
+	width: 1200px;
+	background-color: white;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.school {
+	text-align: left;
+}
+
+.skills {
+	height: 300px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.tech-skills {
+	text-align: left;
+}
+
+.experience {
+	height: 575px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+.exp {
+	text-align: left;
+}
+
+.coursework {
+	height: 325px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 75px;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.courses {
+	text-align: left;
+}
+
+.project {
+	position: absolute;
+	text-align: center;
+	padding-top: -30%;
+}
+.projHeader {
+	height: 75px;
+	width: 1200px;
+	background-color: white;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.projSection {
+	height: 300px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: left;
+	font-size: 24px;
+}
+
+.contact {
+	height: 75px;
+	width: 1200px;
+	background-color: white;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.contactSection {
+	height: 175px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 50px;
+	/* margin-left: 25px; */
+	border: 1px black solid;
+	text-align: left;
+}
+
+.about {
+	position: absolute;
+	text-align: center;
+	padding-top: -30%;
+}
+
+.aboutHeader {
+	height: 75px;
+	width: 1200px;
+	background-color: white;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: center;
+}
+
+.aboutSection {
+	height: 600px;
+	width: 1200px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 200px;
+	border: 1px black solid;
+	text-align: left;
+	font-size: 24px;
+}
